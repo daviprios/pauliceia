@@ -95,6 +95,7 @@ export default {
             background: rgba(#FFF, 0.7) !important
 
             .navbar-brand
+                min-width: 100px
                 width: 120px
 
                 .logo
@@ -105,7 +106,7 @@ export default {
                 text-decoration: none
                 font-size: 30px
                 color: rgb(77,77,77) !important
-                margin: 0 25px !important
+                margin: 0 1rem !important
                 font-family: IrisUPC
             .navbar-nav li a:hover,.navbar-nav .active
                 color: #f15a29 !important
